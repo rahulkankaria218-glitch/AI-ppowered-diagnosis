@@ -1,0 +1,129 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #f8fafc, #eef2f7);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== Layout ===== */
+.login-container {
+  width: 100%;
+  padding: 20px;
+}
+
+.login-card {
+  max-width: 420px;
+  margin: auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.08);
+}
+
+.login-card h1 {
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 28px;
+}
+
+/* ===== Form ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #334155;
+}
+
+input,
+select {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #0f172a;
+}
+
+/* ===== Options ===== */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.remember {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: #475569;
+}
+
+.forgot {
+  text-decoration: none;
+  color: #0f172a;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+/* ===== Button ===== */
+.btn-primary {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: #0f172a;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: #1e293b;
+}
+
+/* ===== Signup ===== */
+.signup-text {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.signup-text a {
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}

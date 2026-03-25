@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | MedAI Diagnostics</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+
+  <div class="login-container">
+
+    <div class="login-card">
+      <h1>Welcome Back</h1>
+      <p class="subtitle">Login to continue to MedAI Diagnostics</p>
+
+      <!-- Redirects to upload page -->
+      <form action="upload.html">
+        
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email" required />
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter your password" required />
+
+        <label>User Role</label>
+        <select required>
+          <option value="">Select role</option>
+          <option>Radiologist</option>
+          <option>Doctor</option>
+          <option>Hospital Admin</option>
+          <option>Technician</option>
+        </select>
+
+        <div class="options">
+          <label class="remember">
+            <input type="checkbox" />
+            Remember me
+          </label>
+          <a href="#" class="forgot">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="btn-primary">Login</button>
+
+      </form>
+
+      <p class="signup-text">
+        Don’t have an account?
+        <a href="#">Create Account</a>
+      </p>
+    </div>
+
+  </div>
+
+</body>
+</html>
